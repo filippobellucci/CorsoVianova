@@ -7,7 +7,7 @@ Aggiunto file "condizioni_e_iteratori_o_cicli.java". Introduzione dell'IF ----> 
 
 Aggiunto file "interazione_con_utente.java". Utilizzo della classe Scanner ----> Filippo Bellucci (11/11/22)
 
-Aggiunto file "esercizio_IF_Scanner.java". Breve introduzione sugli iteratori While e DO-WHILE in previsione di futuri esercizi ----> Filippo Bellucci (11/11/22)
+Aggiunto file "esercizio_IF_Scanner.java". Esercizio con IF e SCANNER ----> Filippo Bellucci (11/11/22)
 
 Aggiunto file "CicliEItertori.java". Breve introduzione sugli iteratori While e DO-WHILE in previsione di futuri esercizi ----> Filippo Bellucci (14/11/22)
 
