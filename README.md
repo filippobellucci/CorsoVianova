@@ -12,3 +12,7 @@ Aggiunto file "esercizio_IF_Scanner.java". Esercizio con IF e SCANNER ----> Fili
 Aggiunto file "CicliEItertori.java". Breve introduzione sugli iteratori While e DO-WHILE in previsione di futuri esercizi ----> Filippo Bellucci (14/11/22)
 
 Aggiunto file "Menu_do_while.java". Esercizio sul MENU tramite WHILE e DO-WHILE ----> Filippo Bellucci (14/11/22)
+
+Aggiunto file "introduzione_array.java". Breve introduzione degli ARRAY ----> Filippo Bellucci (15/11/22)
+
+Aggiunto file "array_while.java". Esercizio con ARRAY e MENU fatto con WHILE ----> Filippo Bellucci (15/11/22)
