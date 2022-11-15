@@ -16,3 +16,5 @@ Aggiunto file "Menu_do_while.java". Esercizio sul MENU tramite WHILE e DO-WHILE 
 Aggiunto file "introduzione_array.java". Breve introduzione degli ARRAY ----> Filippo Bellucci (15/11/22)
 
 Aggiunto file "array_while.java". Esercizio con ARRAY e MENU fatto con WHILE ----> Filippo Bellucci (15/11/22)
+
+Aggiunto file "oggetto_array.java". MENU con ARRAY attraverso l'utilizzo dell'oggetto ArrayList ----> Filippo Bellucci (15/11/22)
