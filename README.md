@@ -20,3 +20,5 @@ Aggiunto file "array_while.java". Esercizio con ARRAY e MENU fatto con WHILE ---
 Aggiunto file "oggetto_array.java". MENU con ARRAY attraverso l'utilizzo dell'oggetto ArrayList ----> Filippo Bellucci (15/11/22)
 
 Aggiunto file "esercizi_username_pass.java". EsercizioTotale1 (SCANNER, ITERATORI, MENU, User-Pass) ----> Filippo Bellucci (15/11/22)
+
+Aggiunto file "TestComplessivoJAVA.java". Test Finale JAVA ----> Filippo Bellucci (16/11/22)
