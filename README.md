@@ -22,3 +22,5 @@ Aggiunto file "oggetto_array.java". MENU con ARRAY attraverso l'utilizzo dell'og
 Aggiunto file "esercizi_username_pass.java". EsercizioTotale1 (SCANNER, ITERATORI, MENU, User-Pass) ----> Filippo Bellucci (15/11/22)
 
 Aggiunto file "TestComplessivoJAVA.java". Test Finale JAVA ----> Filippo Bellucci (16/11/22)
+
+Aggiunto file "esercizioQuizzone.kt". Primo esercizio Kotlin ----> Filippo Bellucci (19/11/22)
