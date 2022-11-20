@@ -98,6 +98,7 @@ fun main(){
 
         var Choose : String = ""
         var TestAnswer : Int = 0
+        var CorrectAnswer : Int = 0
 
         if ( !(UsernameTest.equals("ADMIN")) && !(PasswordTest.equals("ADMIN")) ){
 
@@ -141,6 +142,7 @@ fun main(){
 
                         print("What is your answer?: ")
                         TestAnswer = readLine()!!.toInt()
+                        TestAnswer -= 1
 
                         if (i != 0){
                             UserAnswers.add(Answers.get((i*3)+TestAnswer))
@@ -160,11 +162,9 @@ fun main(){
                         }
                     }
 
-                    var ScorePerc : Double = (UserRightAnswers.toDouble() / (RightAnswers.size).toDouble())*100
                     println("----------TEST COMPLETED----------")
                     print("Your score is: ")
-                    print("${UserRightAnswers}/${RightAnswers.size} ")
-                    println("--> ${ScorePerc}%")
+                    println("${UserRightAnswers}/${RightAnswers.size} ")
 
                     MenuControl = true
 
@@ -221,17 +221,16 @@ fun main(){
                     Answers.add(AnswersAdd)
 
                     print("Which of these answers is the correct one?: ")
-                    var CorrectAnswer : Int = readLine()!!.toInt()
+                    CorrectAnswer = readLine()!!.toInt()
+                    CorrectAnswer -= 1
 
                     if (Questions.size == 1){
                         RightAnswers.add(Answers.get(CorrectAnswer))
                     }
                     else{
-                        for (i in 1 until Questions.size){
-                            RightAnswers.add(Answers.get((i*3)+CorrectAnswer))
-                        }
+                        RightAnswers.add(Answers.get(((Questions.size - 1)*3)+CorrectAnswer))
                     }
-
+                    CorrectAnswer = 0
                     println("Add completed!!")
 
                 }
