@@ -1,5 +1,5 @@
-# RepoFilippoBellucciCorsoJava
-Codice che utilizzeremo durante il corso
+# CorsoVianova
+Codice scritto durante il corso di Vianova (07/11/22 - 20/12/22)
 
 Aggiunto file "ProvaRepository.java" sugli Operatori Logici ----> Filippo Bellucci (11/11/22)
 
@@ -24,3 +24,5 @@ Aggiunto file "esercizi_username_pass.java". EsercizioTotale1 (SCANNER, ITERATOR
 Aggiunto file "TestComplessivoJAVA.java". Test Finale JAVA ----> Filippo Bellucci (16/11/22)
 
 Aggiunto file "esercizioQuizzone.kt". Primo esercizio Kotlin ----> Filippo Bellucci (19/11/22)
+
+Aggiornata struttura della repository con suddivisione in linguaggi di programmazione ----> Filippo Bellucci (25/11/22)
