@@ -28,3 +28,5 @@ Aggiunto file "esercizioQuizzone.kt". Primo esercizio Kotlin ----> Filippo Bellu
 Aggiornata struttura della repository con suddivisione in linguaggi di programmazione ----> Filippo Bellucci (25/11/22)
 
 Aggiunti "database", "WeightOnPlanets_App" e "RegistrationLogin_TestingApp"  ----> Filippo Bellucci (21/12/22)
+
+Aggiunto "JSON". Esempio JSON  ----> Filippo Bellucci (21/12/22)
