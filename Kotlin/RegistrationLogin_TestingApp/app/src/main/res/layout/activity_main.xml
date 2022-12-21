@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp" >
+
+    <TextView android:id="@+id/titolo_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registrazione"
+        android:textSize="35sp"
+        android:layout_margin="20dp"
+        android:textStyle="bold" />
+
+    <EditText android:id="@+id/username_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/richiesta_username"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:autofillHints="username" />
+
+    <EditText android:id="@+id/password_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/richiesta_password"
+        android:inputType="textPassword"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:autofillHints="password" />
+
+    <EditText android:id="@+id/pass_confirm_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/conferma_password"
+        android:inputType="textPassword"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:autofillHints="password" />
+
+    <Button android:id="@+id/registrazione_btn_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/conferma_registrazione" />
+
+    <TextView android:id="@+id/registrazione_mess_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:gravity="center_horizontal"
+        android:text="@string/success"
+        android:textColor="@color/original_green"
+        android:visibility="invisible" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestingApp</string>
+    <string name="registrazione">Registrazione</string>
+    <string name="richiesta_username">Inserisci l\'Username</string>
+    <string name="richiesta_password">Inserisci la Password</string>
+    <string name="conferma_password">Conferma Password</string>
+    <string name="conferma_registrazione">REGISTRATI</string>
+    <string name="success">Registrazione avvenuta con successo!</string>
+</resources>

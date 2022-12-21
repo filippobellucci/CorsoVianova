@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_toEndOf="@id/imageViewId"
+                android:text="Date"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"/>
+
+            <ImageView
+                android:id="@+id/imageViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="127dp"
+                android:contentDescription="immagine avatar"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/listToDoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/imageViewId"
+                android:text="To Do Name"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/delete_btn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="12dp"
+                android:background="@android:drawable/ic_menu_close_clear_cancel"
+                android:contentDescription="@string/delete_btn"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/update_btn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="46dp"
+                android:background="@android:drawable/ic_menu_edit"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
