@@ -26,3 +26,5 @@ Aggiunto file "TestComplessivoJAVA.java". Test Finale JAVA ----> Filippo Bellucc
 Aggiunto file "esercizioQuizzone.kt". Primo esercizio Kotlin ----> Filippo Bellucci (19/11/22)
 
 Aggiornata struttura della repository con suddivisione in linguaggi di programmazione ----> Filippo Bellucci (25/11/22)
+
+Aggiunti "database", "WeightOnPlanets_App" e "RegistrationLogin_TestingApp"  ----> Filippo Bellucci (21/12/22)
